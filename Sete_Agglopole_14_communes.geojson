@@ -6,10 +6,10 @@
       "properties": {
         "name": "Contour Sète Agglopôle (approx.)",
         "style": {
-          "color": "#882539",
-          "weight": 3,
-          "fillColor": "#882539",
-          "fillOpacity": 0.1
+          "color": "#882539",        
+          "weight": 3,               
+          "fillColor": "#882539",    
+          "fillOpacity": 0         
         }
       },
       "geometry": {
@@ -35,3 +35,4 @@
     }
   ]
 }
+
