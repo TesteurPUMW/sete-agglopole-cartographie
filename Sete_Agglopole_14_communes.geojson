@@ -1,34 +1,37 @@
 {
-  "type": "Feature",
-  "properties": {
-    "name": "Contour Sète Agglopôle (approx.)",
-    "style": {
-      "color": "#882539",        // couleur du contour (équivalent de stroke)
-      "weight": 3,               // épaisseur du contour
-      "fillColor": "#882539",    // couleur de remplissage
-      "fillOpacity": 0.1         // opacité du remplissage
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Contour Sète Agglopôle (approx.)",
+        "style": {
+          "color": "#882539",
+          "weight": 3,
+          "fillColor": "#882539",
+          "fillOpacity": 0.1
+        }
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [[
+          [3.5172, 43.323],
+          [3.6052, 43.421],
+          [3.6107, 43.445],
+          [3.6667, 43.442],
+          [3.6825, 43.442],
+          [3.6796, 43.442],
+          [3.6833, 43.401],
+          [3.7534, 43.446],
+          [3.7523, 43.507],
+          [3.7964, 43.501],
+          [3.7991, 43.484],
+          [3.6793, 43.522],
+          [3.6788, 43.509],
+          [3.5925, 43.518],
+          [3.5172, 43.323]
+        ]]
+      }
     }
-  },
-  "geometry": {
-    "type": "Polygon",
-    "coordinates": [[
-      [3.5172, 43.323],
-      [3.6052, 43.421],
-      [3.6107, 43.445],
-      [3.6667, 43.442],
-      [3.6825, 43.442],
-      [3.6796, 43.442],
-      [3.6833, 43.401],
-      [3.7534, 43.446],
-      [3.7523, 43.507],
-      [3.7964, 43.501],
-      [3.7991, 43.484],
-      [3.6793, 43.522],
-      [3.6788, 43.509],
-      [3.5925, 43.518],
-      [3.5172, 43.323]
-    ]]
-  }
+  ]
 }
-
-
