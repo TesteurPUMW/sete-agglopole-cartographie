@@ -1,43 +1,33 @@
 {
-  "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": { "name": "Contour Sète Agglopôle (approx.)" },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [[
-          [3.5172, 43.323],
-          [3.6052, 43.421],
-          [3.6107, 43.445],
-          [3.6667, 43.442],
-          [3.6825, 43.442],
-          [3.6796, 43.442],
-          [3.6833, 43.401],
-          [3.7534, 43.446],
-          [3.7523, 43.507],
-          [3.7964, 43.501],
-          [3.7991, 43.484],
-          [3.6793, 43.522],
-          [3.6788, 43.509],
-          [3.5925, 43.518],
-          [3.5172, 43.323]
-        ]]
-      }
-    },
-    { "type": "Feature", "properties": { "name": "Sète" }, "geometry": { "type": "Point", "coordinates": [3.6833, 43.401] } },
-    { "type": "Feature", "properties": { "name": "Frontignan" }, "geometry": { "type": "Point", "coordinates": [3.7534, 43.446] } },
-    { "type": "Feature", "properties": { "name": "Balaruc-les-Bains" }, "geometry": { "type": "Point", "coordinates": [3.6796, 43.442] } },
-    { "type": "Feature", "properties": { "name": "Balaruc-le-Vieux" }, "geometry": { "type": "Point", "coordinates": [3.6825, 43.442] } },
-    { "type": "Feature", "properties": { "name": "Bouzigues" }, "geometry": { "type": "Point", "coordinates": [3.6667, 43.442] } },
-    { "type": "Feature", "properties": { "name": "Loupian" }, "geometry": { "type": "Point", "coordinates": [3.6107, 43.445] } },
-    { "type": "Feature", "properties": { "name": "Mèze" }, "geometry": { "type": "Point", "coordinates": [3.6052, 43.421] } },
-    { "type": "Feature", "properties": { "name": "Gigean" }, "geometry": { "type": "Point", "coordinates": [3.7523, 43.507] } },
-    { "type": "Feature", "properties": { "name": "Vic-la-Gardiole" }, "geometry": { "type": "Point", "coordinates": [3.7991, 43.484] } },
-    { "type": "Feature", "properties": { "name": "Mireval" }, "geometry": { "type": "Point", "coordinates": [3.7964, 43.501] } },
-    { "type": "Feature", "properties": { "name": "Marseillan" }, "geometry": { "type": "Point", "coordinates": [3.5172, 43.323] } },
-    { "type": "Feature", "properties": { "name": "Montbazin" }, "geometry": { "type": "Point", "coordinates": [3.6793, 43.522] } },
-    { "type": "Feature", "properties": { "name": "Poussan" }, "geometry": { "type": "Point", "coordinates": [3.6788, 43.509] } },
-    { "type": "Feature", "properties": { "name": "Villeveyrac" }, "geometry": { "type": "Point", "coordinates": [3.5925, 43.518] } }
-  ]
+  "type": "Feature",
+  "properties": {
+    "name": "Contour Sète Agglopôle (approx.)",
+    "style": {
+      "stroke": "#882539",
+      "stroke-width": 3,
+      "fill": "#882539",
+      "fill-opacity": 0.1
+    }
+  },
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [[
+      [3.5172, 43.323],
+      [3.6052, 43.421],
+      [3.6107, 43.445],
+      [3.6667, 43.442],
+      [3.6825, 43.442],
+      [3.6796, 43.442],
+      [3.6833, 43.401],
+      [3.7534, 43.446],
+      [3.7523, 43.507],
+      [3.7964, 43.501],
+      [3.7991, 43.484],
+      [3.6793, 43.522],
+      [3.6788, 43.509],
+      [3.5925, 43.518],
+      [3.5172, 43.323]
+    ]]
+  }
 }
+
